@@ -136,7 +136,8 @@ a:hover {
 #main-body p {
 	margin-top:200;
 	margin-left:250;
-	font-size:14;
+	font-size:16;
+	font-weight:bold;
 	font-family:"Courier New", Courier, monospace;
 	color:#666;
 }
