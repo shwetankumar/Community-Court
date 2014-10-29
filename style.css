@@ -120,7 +120,7 @@ a:hover {
 	color:#003;
 }
 
-#main-menu {
+#main-body {
 	float:left;
 }
 
@@ -131,6 +131,24 @@ a:hover {
 	word-spacing:2px;
 	text-transform:uppercase;
 	color:#000;
+}
+
+#main-body p {
+	margin-top:200;
+	margin-left:250;
+	font-size:14;
+	font-family:"Courier New", Courier, monospace;
+	color:#666;
+}
+
+#main-body form {
+	margin-top:200;
+	margin-left:250;
+}
+
+#main-body form a:hover {
+	text-decoration:underline;
+	color:#039;
 }
 
 #logo h1, #logo p {
