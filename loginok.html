@@ -8,7 +8,7 @@
 <div id="header-wrapper">
 	<div id="header">
     	<div id="logoimg">
-      	  <a href="home.html"> <img src="clogo.png" width="130" height="90"> </a>
+      	  <a href="home.html"> <img src="images/clogo.png" width="130" height="90"> </a>
     	</div>
     	<div id="logo1">
        	 <h1 style="color:#C29C03">Web Portal</h1>
@@ -17,7 +17,7 @@
        	 <h1 style="color:#FFF">Atlanta Community Court</h1>
     	</div>
     	<div id="signin">
-        	<a href="login.html"><input type="button" value="Sign In" name="login"></a>
+        	<a href="login.html"><input type="button" value="Sign Out" name="login"></a>
     	</div>
 	</div>
 </div>
@@ -37,6 +37,16 @@
     
     <div id="main-body">
     	<div id="note"> <h2> Welcome to your Account </h2> </div>
+        <div id="permissions">
+        <form name="user-admin" enctype="text/plain">
+        <fieldset>
+        <legend> Permissions </legend>
+        	<img src="images/createinactive.png" height="50" width="120">
+            <img src="images/editinactive.png" height="50" width="120">
+            <img src="images/viewactive.png" height="50" width="120" onMouseOver="this.src='images/viewselected.png'" onMouseOut="this.src='images/viewactive.png'">
+        </fieldset>
+        </form>
+        </div>
         
     </div>
     	    

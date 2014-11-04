@@ -172,6 +172,20 @@ fieldset
 	color:#039;
 }
 
+#permissions {
+	margin-top:250px;
+}
+
+#permissions fieldset {
+	width:450px;
+	height:80px;
+}
+
+#permissions form img {
+	margin-left:13px;
+	margin-right:13px;
+}
+
 #logo h1, #logo p {
 	margin: 0;
 	padding: 0;

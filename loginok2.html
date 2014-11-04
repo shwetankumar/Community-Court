@@ -16,6 +16,9 @@
         <div id="logo2">
        	 <h1 style="color:#FFF">Atlanta Community Court</h1>
     	</div>
+    	<div id="signin">
+        	<a href="login.html"><input type="button" value="Sign Out" name="login"></a>
+    	</div>
 	</div>
 </div>
 
@@ -33,19 +36,19 @@
     </div>
     
     <div id="main-body">
-    	<div id="note"> <h2> Please Enter credentials </h2> </div>
-         
-         <form name = "credentials" enctype="text/plain">
-         <fieldset>
-         <legend>Login Information</legend>
-         Enter username : <input type="text" name="uid">	<br style="margin-bottom:10px;">
-         Enter password : <input type="password" name="pwd" style="margin-left:2px;">    <br><br>
-         <input type="button" value="Submit" name="validate" style="background:#EFEFEF" onclick="window.location.href='loginok.html';">   
-         <div id="forgot"><a href="forgot.html"> Forgot Username or Password </a> </div>
-         </fieldset>
-         </form>
-
-	    </div>
+    	<div id="note"> <h2> Welcome to your Account </h2> </div>
+        <div id="permissions">
+        <form name="user-admin" enctype="text/plain">
+        <fieldset>
+        <legend> Permissions </legend>
+        	<img src="images/createactive.png" height="50" width="120" onMouseOver="this.src='images/createselected.png'" onMouseOut="this.src='images/createactive.png'">
+            <img src="images/editactive.png" height="50" width="120" onMouseOver="this.src='images/editselected.png'" onMouseOut="this.src='images/editactive.png'">
+            <img src="images/viewactive.png" height="50" width="120" onMouseOver="this.src='images/viewselected.png'" onMouseOut="this.src='images/viewactive.png'">
+        </fieldset>
+        </form>
+        </div>
+        
+    </div>
     	    
 	<div id="sidebar">
     
