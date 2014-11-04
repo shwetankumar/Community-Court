@@ -17,7 +17,20 @@ a {
 	color: #3E3530;
 }
 
-a:hover {
+legend {
+	color:#FFF;
+	background: #640000;
+	border: 1px solid #781351;
+	padding: 3px 8px;
+}
+
+fieldset
+{
+	border: 1px solid #666;
+	background:#CCC;
+	width: 300px;
+	color:#000;
+	padding:10px 20px;
 }
 
 #header-wrapper {
@@ -40,7 +53,7 @@ a:hover {
 	float:left;
 	width:100;
 	height:50;
-	margin-top:10;
+	margin-top:15;
 	padding:0;
 	margin-left:20;
 	margin-right:10;
@@ -50,7 +63,7 @@ a:hover {
 	float:left;
 	width:120;
 	margin-top:48;
-	margin-left:50;
+	margin-left:60;
 	background: #003;
 }
 
@@ -58,25 +71,25 @@ a:hover {
 	float:left;
 	width:400;
 	margin-top:30;
-	margin-left:160;
+	margin-left:200;
 	padding: 0;
 	background: #003;
 	font-size:18px;
 }
 
-#signout {
+#signin {
 	position:relative;
 	float:left;
-	margin-top:-55;
-	margin-left:1200;
+	margin-top:-60;
+	margin-left:1220;
 	padding:1;
 	background:#C29C03;
 }
 
 #content-wrapper {
 	width:100%;
-	height:950;
-	background-color:#FFC
+	height:591;
+	background-color:#FFF;
 }
 
 #content-pane {
@@ -84,11 +97,12 @@ a:hover {
 	margin-top:132;
 	margin-bottom:40px;
 	width:160px;
-	height:870;
+	height:510;
 	border-right:double;
 	padding-left:20;
 	padding-right:30;
 	float:left;
+	background-color:#FFC;
 }
 
 #qlink {
@@ -122,24 +136,30 @@ a:hover {
 
 #main-body {
 	float:left;
+	margin-left:250;
+	margin-right:30px;
 }
 
 #note h2 {
 	float:left;
 	margin-top:150;
-	margin-left:250;
 	word-spacing:2px;
 	text-transform:uppercase;
 	color:#000;
 }
 
+#forgot {
+	margin-left:90px;
+	margin-top:-18px;
+}
+
 #main-body p {
 	margin-top:200;
-	margin-left:250;
 	font-size:16;
 	font-weight:bold;
 	font-family:"Courier New", Courier, monospace;
-	color:#666;
+	color:#777;
+	text-align:justify;
 }
 
 #main-body form {
@@ -194,25 +214,15 @@ a:hover {
 #footer-wrapper {
 	width:100%;
 	height:40px;
-	margin-top:2;
+	margin-top:5ps;
 }
 
 #footer {
-	height: 30px;
-	margin: 0 auto;
-	padding: 0px 0 15px 0;
+	height: 25px;
+	margin-left:150px;
+	padding: 13px 0 5px 0;
 	background: #D8D8D8;
-	border-top: 1px solid #EBE8DF;
+	border-top: 1px solid #BBB;
 	font-family: Arial, Helvetica, sans-serif;
-}
-
-#footer p center {
-	margin: 0;
-	padding-top: 20px;
-	line-height: normal;
-	font-size: 9px;
-	text-transform: uppercase;
-	text-align: center;
-	color: #333;
-	margin-left:400;
+	color:#666;
 }

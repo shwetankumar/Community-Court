@@ -8,7 +8,7 @@
 <div id="header-wrapper">
 	<div id="header">
     	<div id="logoimg">
-      	  <img src="gavel.gif" width="150" height="100">
+      	  <a href="home.html"> <img src="clogo.png" width="130" height="90"> </a>
     	</div>
     	<div id="logo1">
        	 <h1 style="color:#C29C03">Web Portal</h1>
@@ -36,9 +36,13 @@
     	<div id="note"> <h2> Please Enter credentials </h2> </div>
          
          <form name = "credentials" enctype="text/plain">
-         Enter username : <input type="text" name="uid">	<br>
-         Enter password : <input type="password" name="pwd">    <br><br>
-         <input type="submit" value="Submit">   <a href="forgot.html"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forgot Username or Password </a>
+         <fieldset>
+         <legend>Login Information</legend>
+         Enter username : <input type="text" name="uid">	<br style="margin-bottom:10px;">
+         Enter password : <input type="password" name="pwd" style="margin-left:2px;">    <br><br>
+         <input type="submit" value="Submit" name="validate" style="background:#EFEFEF">   
+         <div id="forgot"><a href="forgot.html"> Forgot Username or Password </a> </div>
+         </fieldset>
          </form>
 
 	    </div>
@@ -50,8 +54,7 @@
 
 <div id="footer-wrapper">
 <div id="footer">
-    <p><center>Copyright (c) 2014 Atlanta Community Court. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</center>
-    </p>
+    <center>Copyright (c) 2014 Atlanta Community Court. All rights reserved.</center>
 </div>
 </div>
 
