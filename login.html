@@ -2,6 +2,7 @@
 <head>
 <title>Atlanta Community Court - Web Data Management System</title>
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="JS/login.js"></script>
 </head>
 <body>
 
@@ -14,10 +15,7 @@
        	 <h1 style="color:#C29C03">Web Portal</h1>
     	</div>
         <div id="logo2">
-       	 <h1 style="color:#FFF">Atlanta Community Court</h1>
-    	</div>
-	</div>
-</div>
+       	 <h1 style="color:#FFF">Atlanta Community Court</h1></div></div></div>
 
 <div id="content-wrapper">
 	<div id="content-pane">
@@ -35,13 +33,16 @@
     <div id="main-body">
     	<div id="note"> <h2> Please Enter credentials </h2> </div>
          
-         <form name = "credentials" enctype="text/plain">
+         <form name = "credentials" enctype="text/plain" method="post">
          <fieldset>
          <legend>Login Information</legend>
-         Enter username : <input type="text" name="uid">	<br style="margin-bottom:10px;">
-         Enter password : <input type="password" name="pwd" style="margin-left:2px;">    <br><br>
-         <input type="button" value="Submit" name="validate" style="background:#EFEFEF" onclick="window.location.href='loginok.html';">   
-         <div id="forgot"><a href="forgot.html"> Forgot Username or Password </a> </div>
+         Enter username : <input type="text" id="uname" placeholder="user ID" onfocus="this.placeholder = ''">	
+         		<br style="margin-bottom:10px;">
+         Enter password : <input type="password" id="pwd" placeholder="password" style="margin-left:2px;" onfocus="this.placeholder = ''">	
+         	    <br><br>
+         <input type="button" value="Submit" name="validate" style="background:#EFEFEF" onClick="window.location.href='loginok.html';">   
+         <div id="forgot"><a href="forgot.html"> Forgot Username or Password </a> </div> <br>
+         <input type="button" value="tryJS" name="validate" style="background:#EFEFEF" onClick="getCredentials()">
          </fieldset>
          </form>
 

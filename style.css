@@ -61,7 +61,7 @@ fieldset
 
 #logo1 {
 	float:left;
-	width:120;
+	width:180;
 	margin-top:48;
 	margin-left:60;
 	background: #003;
@@ -69,9 +69,9 @@ fieldset
 
 #logo2 {
 	float:left;
-	width:400;
+	width:450;
 	margin-top:30;
-	margin-left:200;
+	margin-left:180;
 	padding: 0;
 	background: #003;
 	font-size:18px;
