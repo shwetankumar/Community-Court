@@ -8,13 +8,14 @@
 	<script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
 	<script type="text/javascript" src="JS/datepick.js"></script>
     <script type="text/javascript" src="JS/state.js"></script>
+    <script type="text/javascript" src="JS/fSubmit.js"></script>
 </head>
 <body>
 
 <div id="header-wrapper">
 	<div id="header">
     	<div id="logoimg">
-      	  <a href="home.html"> <img src="images/clogo.png" width="130" height="90"> </a>
+      	  <a href="home.html"> <img src="img/clogo.png" width="130" height="90"> </a>
     	</div>
     	<div id="logo1">
        	 <h1 style="color:#C29C03">Web Portal</h1>
@@ -55,20 +56,14 @@
          <fieldset>
          <legend>Case Details </legend>
          
-         &emsp; CourtID: <input type="text" id="cid" size="10"> &emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp; Citation Number: <input type="text" id="cid"> &emsp;&emsp;&emsp;&emsp;&emsp;
          Date Charged: <input type="text" id="datepicker4" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''"> 
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          Reason for Charge: <input type="text" id="reason">
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     	 <br><br>
-         
-         &emsp; Location of Offense: <input type="text" id="locOffense" size="30" style="margin-right:40px;">
-		 City: <input type="text" id="cOffense" style="margin-right:40px;">
-         State: <select name="state" id="state3" style="margin-right:40px;"> <script> populateStates3() </script> </select>
-         Zip: <input type="text" id="zipOffense" size="5" maxlength="5">
-         <br><br>
-         
+     	 
          &emsp; Recommended Programs: <input type="checkbox" name="program" style="margin-left:20px;"> TLC
          <input type="checkbox" name="program" style="margin-left:25px"> Community Service
          <input type="checkbox" name="program" style="margin-left:25px"> Restorative Justice

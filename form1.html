@@ -4,17 +4,18 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
 	<link href="css/datepicker.css" rel="stylesheet" type="text/css"/>	
-	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
-	<script type="text/javascript" src="JS/datepick.js"></script>
-    <script type="text/javascript" src="JS/state.js"></script>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+	<script src="js/datepick.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/fSubmit.js"></script>
 </head>
 <body>
 
 <div id="header-wrapper">
 	<div id="header">
     	<div id="logoimg">
-      	  <a href="home.html"> <img src="images/clogo.png" width="130" height="90"> </a>
+      	  <a href="home.html"> <img src="img/clogo.png" width="130" height="90"> </a>
     	</div>
     	<div id="logo1">
        	 <h1 style="color:#C29C03">Web Portal</h1>
@@ -49,7 +50,7 @@
         <br>
         
         <div id = "form1">
-         <form name = "personalInfo" enctype="text/plain">
+         <form name = "personalInfo" enctype="text/plain" id="form1" method="post">
          <fieldset>
          <legend>Personal Details </legend>
          
@@ -57,8 +58,7 @@
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          Date Referred to Court: <input type="text" id="datepicker2" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''">
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         CourtID: <input type="text" id="courtID">
+         Citation Number: <input type="text" id="courtID">
     	 <br><br> <hr size="1.2" noshade style="color:#000;"> <br>
          
          &nbsp;&nbsp; First Name: <input type="text" id="fName" style="margin-right:50px;">
@@ -110,8 +110,9 @@
          style="resize:none; overflow:auto;">
          </textarea>
          
-         <br><br>
-         <input type="submit" value="Send" name="retrieve" style="background:#EFEFEF; margin-left:420px;">   
+         <br><br><br>
+         <input type="button" value="Submit" name="retrieve" id="submit" style="background:#EFEFEF; margin-left:420px; padding:3px; width:80px">
+         
          </fieldset>
          </form>
 		</div>
