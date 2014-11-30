@@ -51,27 +51,27 @@ fieldset
 
 #logoimg{
 	float:left;
-	width:100;
-	height:50;
-	margin-top:15;
+	width:100px;
+	height:50px;
+	margin-top:15px;
 	padding:0;
-	margin-left:20;
-	margin-right:10;
+	margin-left:20px;
+	margin-right:10px;
 }
 
 #logo1 {
 	float:left;
-	width:180;
-	margin-top:48;
-	margin-left:60;
+	width:180px;
+	margin-top:48px;
+	margin-left:60px;
 	background: #003;
 }
 
 #logo2 {
 	float:left;
-	width:450;
-	margin-top:30;
-	margin-left:180;
+	width:450px;
+	margin-top:30px;
+	margin-left:180px;
 	padding: 0;
 	background: #003;
 	font-size:18px;
@@ -80,9 +80,9 @@ fieldset
 #signin {
 	position:relative;
 	float:left;
-	margin-top:-60;
-	margin-left:1220;
-	padding:1;
+	margin-top:-60px;
+	margin-left:1220px;
+	padding:1px;
 	background:#C29C03;
 }
 
@@ -95,30 +95,30 @@ fieldset
 
 #content-pane {
 	position:fixed;
-	margin-top:130;
+	margin-top:130px;
 	margin-bottom:40px;
 	width:160px;
-	height:510;
+	height:100%;
 	border-right:double;
-	padding-left:20;
-	padding-right:30;
+	padding-left:20px;
+	padding-right:30px;
 	float:left;
 	background-color:#FFC;
 }
 
 #qlink {
 	font-family:Arial, Helvetica, sans-serif;
-	padding-left:45;
+	padding-left:45px;
 	font-size:14px;
 	color:#666;
 	border-bottom:dotted;
-	padding-bottom:5;
-	padding-top:8;
+	padding-bottom:5px;
+	padding-top:8px;
 }
 
 #link-options ul {
-	margin-top:20;
-	margin-left:-20;
+	margin-top:20px;
+	margin-left:-20px;
 }
 
 #link-options ul li {
@@ -131,13 +131,13 @@ fieldset
 #link-options ul li a:hover {
 	list-style-type:none;
 	text-decoration:underline;
-	margin-top:5;
+	margin-top:5px;
 	color:#003;
 }
 
 #main-body {
 	float:left;
-	margin-left:250;
+	margin-left:250px;
 	margin-right:30px;
 }
 
@@ -161,7 +161,7 @@ fieldset
 #formid a:hover {
 	color:#111;
 	text-decoration:underline;
-	font-weight:800;
+	font-weight:800px;
 	background:#B7DBFF;
 	padding:5px;
 }
@@ -201,7 +201,7 @@ fieldset
 
 #note h2 {
 	float:left;
-	margin-top:150;
+	margin-top:150px;
 	word-spacing:2px;
 	text-transform:uppercase;
 	color:#000;
@@ -213,17 +213,22 @@ fieldset
 }
 
 #main-body p {
-	margin-top:200;
-	font-size:16;
+	margin-top:200px;
+	font-size:16px;
 	font-weight:bold;
 	font-family:"Courier New", Courier, monospace;
 	color:#777;
 	text-align:justify;
 }
 
+#main-body dd {
+	margin-top:5px;
+	color:#444;
+}
+
 #main-body form {
-	margin-top:200;
-	margin-left:250;
+	margin-top:200px;
+	margin-left:250px;
 }
 
 #main-body form a:hover {
