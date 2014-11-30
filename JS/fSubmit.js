@@ -1,6 +1,6 @@
 $(function(){
 	$("#submit").click( function () {
-		console.log("hiii");
+		console.log("chal gaya !! kya baat hai");
 		var name = $("#fName").val();
 		console.log(name);
 		$.ajax({
