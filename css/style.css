@@ -221,9 +221,19 @@ fieldset
 	text-align:justify;
 }
 
+#main-body dt {
+	color:#000;
+	word-spacing:2px;
+	text-align:justify;
+	font-size:13px;
+	font-weight:600;
+}
+
 #main-body dd {
 	margin-top:5px;
 	color:#444;
+	word-spacing:2px;
+	text-align:justify;
 }
 
 #main-body form {
