@@ -34,23 +34,27 @@
     </div>
     
     <div id="main-body">
-    	<div id="note"> <h2> Welcome to the Data Entry System </h2> </div>
-        <div id="permissions">
+    	<div id="note"> <h2> Welcome to your Account </h2> </div>
+        <div id="searchpage">
         <form name="user-admin" enctype="text/plain">
         <fieldset>
-        <legend> Options Available </legend>
-        	<a href = "form1.html"><img src="img/createactive.png" height="50" width="120" onMouseOver="this.src='img/createselected.png'" onMouseOut="this.src='img/createactive.png'"></a>
-            <a href = "search&edit.html"><img src="img/editactive.png" height="50" width="120" onMouseOver="this.src='img/editselected.png'" onMouseOut="this.src='img/editactive.png'"></a>
-            <a href="search&view.html"><img src="img/viewactive.png" height="50" width="120" onMouseOver="this.src='img/viewselected.png'" onMouseOut="this.src='img/viewactive.png'"></a>
+        <legend> Record Search </legend>
+        	<br><br>
+            &emsp;&emsp;
+            Keyword : <input type="text" name="searchword" maxlength="15" style="margin-right:40px;">
+            Look in : 
+            <select name="searchcriteria" style="width:140px">
+            <option></option>
+            <option>Citation Number</option>
+            <option>Name</option>
+            </select>
+            <input type="button" name="searchbutton" value="Search" style="margin-left:30px;padding:2px;">
         </fieldset>
         </form>
         </div>
         
     </div>
-    	    
-	<div id="sidebar">
-    
-    </div>
+
 </div>
 
 <div id="footer-wrapper">

@@ -29,7 +29,7 @@
 	</div>
 </div>
 
-<div id="content-wrapper" style="height:53.5%;">
+<div id="content-wrapper" style="height:150%;">
 	<div id="content-pane">
 	<div id="qlink">    Quick Links      </div>
     <div id = "link-options">
@@ -57,24 +57,51 @@
          <fieldset>
          <legend>Case Details </legend>
          
-         <br><br>
-         &emsp; Citation Number: <input type="text" id="cid"> &emsp;&emsp;&emsp;&emsp;&emsp;
-         Date Charged: <input type="text" id="datepicker4" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12"> 
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <br><br><br>
-     	 
-         &emsp; Recommended Programs: <input type="checkbox" name="program" style="margin-left:20px;"> TLC
-         <input type="checkbox" name="program" style="margin-left:25px"> Community Service
-         <input type="checkbox" name="program" style="margin-left:25px"> Restorative Justice
-         <input type="checkbox" name="program" style="margin-left:25px"> Mental Health Program
+         <h2 style="text-decoration:underline; color:#000; margin-left:20px; font-weight:500; margin-bottom:-2px"> Mental Health Program </h2>
+         <br>
          
+         &nbsp;&nbsp;&nbsp;&nbsp;Name of assigning Judge : 
+         <select name="judge" style="width:80px;margin-right:60px;"> <option> </option> <option> Sloan</option> <option>Gaines</option> </select>
+         Reason for Charge: <input type="text" id="reason" style="margin-right:60px;">
+         <br><br><br>
+         
+         <hr size="1.2" noshade style="color:#000;"> <br>
+         
+         &emsp;&emsp;&emsp;&emsp;Assigned Programs
+         <br><br><br>
+         
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <input type="checkbox" name="tlcreq"> Clinical Services
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         Date of Completion : <input type="text" id="datepicker36" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         <br><br>
+         
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <input type="checkbox" name="tlcreq"> Anger Management
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+         Date of Completion : <input type="text" id="datepicker37" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         <br><br>
+         
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <input type="checkbox" name="tlcreq"> Conflict Resolution
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         Date of Completion : <input type="text" id="datepicker38" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         <br><br><br> 
+         
+         <hr size="1.2" noshade style="color:#000;"> <br>
+         
+         <font style="margin-left:400px">All conditions satisfied : </font>
+         <input type="radio" name="satisfied">Yes
+         <input type="radio" name="satisfied">No
+         &emsp;&emsp;&emsp;&emsp;
+         Follow-up Date : <input type="text" id="datepicker39" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          <br><br><br><br><br><br>
          <center> 
-         <b style="margin-left:10px;">Home</b> 
+         <a href="form2.html" style="margin-left:10px;"> Home</a>
          <a href="form3.html" style="margin-left:10px;"> TLC</a>
          <a href="form4.html" style="margin-left:10px;"> Restorative Justice</a>
          <a href="form6.html" style="margin-left:10px;"> Community Service</a>
-         <a href="form7.html" style="margin-left:10px;"> Mental Health</a>
+         <b style="margin-left:10px;"> Mental Health</b>
          </center>
          
          </fieldset>

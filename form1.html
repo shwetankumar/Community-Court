@@ -23,10 +23,13 @@
         <div id="logo2">
        	 <h1 style="color:#FFF">Atlanta Community Court</h1>
     	</div>
+        <div id="signin">
+        	<a href="loginok2.html"><input type="button" value="   Main Options   " name="login" style="padding:1px;font-size:13px"></a>
+    	</div>
 	</div>
 </div>
 
-<div id="content-wrapper" style="height:105%;">
+<div id="content-wrapper" style="height:110%;">
 	<div id="content-pane">
 	<div id="qlink">    Quick Links      </div>
     <div id = "link-options">
@@ -42,7 +45,7 @@
         
         <br>
         <div id="formid">
-		&emsp;&emsp;&emsp;&emsp; <h4 style="margin-left:50px; background:#CCC; width:120px; padding:5px;"> Personal Information </h4>&emsp;
+		&emsp;&emsp;&emsp;&emsp; <h4 style="margin-left:50px; background:#DDD; width:120px; padding:5px;"> Personal Information </h4>&emsp;
         <h4><a href="form2.html"> Case Information </a></h4>
         </div>
         <br>
@@ -52,17 +55,17 @@
          <fieldset>
          <legend>Personal Details </legend>
          
-         Current Date: <input type="text" id="datepicker1" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''"> 
+         Current Date: <input type="text" id="datepicker1" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12"> 
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         Date Referred to Court: <input type="text" id="datepicker2" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''">
+         &emsp;Date Referred to Court: <input type="text" id="datepicker2" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         Citation Number: <input type="text" id="courtID">
+         &emsp;Citation Number: <input type="text" id="courtID">
     	 <br><br> <hr size="1.2" noshade style="color:#000;"> <br>
          
          &nbsp;&nbsp; First Name: <input type="text" id="fName" style="margin-right:50px;">
          Middle Initial: <input type="text" id="mInitial" size="3" style="margin-right:50px">
          Last Name: <input type="text" id="lName">
-         <br><br>
+         <br><br><br>
          
          &nbsp;&nbsp; Street Address: <textarea id="sAddress" rows="2" data-role="none" cols="30" 
          style="margin-right:53px; resize:none; overflow:auto;"> 
@@ -70,13 +73,13 @@
          City: <input type="text" id="city" size="15" style="margin-right:40px; margin-top:16px;">
          State: <select name="state" id="state1" style="margin-right:40px"> <script> populateStates1() </script> </select>
          Zip Code: <input type="text" id="zip" size="5" maxlength="5">
-         <br><br>
+         <br><br><br>
          
-         &nbsp;&nbsp; Date of Birth: <input type="text" id="datepicker3" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" 
+         &nbsp;&nbsp; Date of Birth: <input type="text" id="datepicker3" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12" 
          style="margin-right:50px;">
-         Primary Phone Number: <input type="text" id="pPhone" size="10" maxlength="10" style="margin-right:50px;">
+         &emsp;&emsp; Primary Phone Number: <input type="text" id="pPhone" size="10" maxlength="10" style="margin-right:50px;">
          Additional Phone Number: <input type="text" id="sPhone" size="10" maxlength="10" style="margin-right:50px;">
-         <br><br>
+         <br><br><br>
          
          &nbsp;&nbsp; Gender: &nbsp;&nbsp; <input type="radio" name="gender"> Male &nbsp;&nbsp; <input type="radio" name="gender"> Female
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; Ethnicity/Race: <select id="ethnicity" style="margin-right:50px"> 
@@ -85,7 +88,7 @@
          <select id="education"> 
          <option> </option> <option>High Scool</option> <option> Bachelors </option> <option> Masters </option> 
          </select>
-         <br><br> <hr size="1.2" noshade style="color:#000;"> <br>
+         <br><br>
          </fieldset>
          <br><br>
          
@@ -104,9 +107,8 @@
          Zip Code: <input type="text" id="zip2" size="5" maxlength="5">
          <br><br>
          
-         &nbsp;&nbsp; Comments: <textarea id="comments" rows="2" data-role="none" cols="135" 
-         style="resize:none; overflow:auto;">
-         </textarea>
+         &nbsp;&nbsp; Comments: 
+         <textarea id="comments" rows="2" data-role="none" cols="135" style="resize:none; overflow:auto; margin-left:10px;"></textarea>
          
          <br><br><br>
          <input type="button" value="Submit" name="retrieve" id="submit" style="background:#EFEFEF; margin-left:420px; padding:3px; width:80px">
