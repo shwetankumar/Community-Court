@@ -1,6 +1,6 @@
 
 $(function(){
-	$('#datepicker1').datepicker({
+	$('[name="datepicker1"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -8,7 +8,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker2').datepicker({
+	$('[name="datepicker2"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -16,7 +16,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker3').datepicker({
+	$('[name="datepicker3"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -24,7 +24,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker4').datepicker({
+	$('[name="datepicker4"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -32,7 +32,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker5').datepicker({
+	$('[name="datepicker5"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -40,7 +40,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker6').datepicker({
+	$('[name="datepicker6"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -48,7 +48,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker7').datepicker({
+	$('[name="datepicker7"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -56,7 +56,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker8').datepicker({
+	$('[name="datepicker8"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -64,7 +64,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker9').datepicker({
+	$('[name="datepicker9"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -72,7 +72,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker10').datepicker({
+	$('[name="datepicker10"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -80,7 +80,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker11').datepicker({
+	$('[name="datepicker11"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -88,7 +88,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker12').datepicker({
+	$('[name="datepicker12"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -96,7 +96,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker13').datepicker({
+	$('[name="datepicker13"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -104,7 +104,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker14').datepicker({
+	$('[name="datepicker14"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -112,7 +112,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker15').datepicker({
+	$('[name="datepicker15"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -120,7 +120,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker16').datepicker({
+	$('[name="datepicker16"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -128,7 +128,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker17').datepicker({
+	$('[name="datepicker17"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -136,7 +136,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker18').datepicker({
+	$('[name="datepicker18"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -144,7 +144,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker19').datepicker({
+	$('[name="datepicker19"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -152,7 +152,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker20').datepicker({
+	$('[name="datepicker20"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -160,7 +160,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker21').datepicker({
+	$('[name="datepicker21"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -168,7 +168,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker22').datepicker({
+	$('[name="datepicker22"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -176,7 +176,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker23').datepicker({
+	$('[name="datepicker23"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -184,7 +184,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker24').datepicker({
+	$('[name="datepicker24"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -192,7 +192,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker25').datepicker({
+	$('[name="datepicker25"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -200,7 +200,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker26').datepicker({
+	$('[name="datepicker26"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -208,7 +208,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker267').datepicker({
+	$('[name="datepicker27"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -216,7 +216,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker28').datepicker({
+	$('[name="datepicker28"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -224,7 +224,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker29').datepicker({
+	$('[name="datepicker29"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -232,7 +232,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker30').datepicker({
+	$('[name="datepicker30"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -240,7 +240,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker31').datepicker({
+	$('[name="datepicker31"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -248,7 +248,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker32').datepicker({
+	$('[name="datepicker32"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -256,7 +256,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker33').datepicker({
+	$('[name="datepicker33"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -264,7 +264,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker34').datepicker({
+	$('[name="datepicker34"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -272,7 +272,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker35').datepicker({
+	$('[name="datepicker35"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -280,7 +280,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker36').datepicker({
+	$('[name="datepicker36"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -288,7 +288,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker37').datepicker({
+	$('[name="datepicker37"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -296,7 +296,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker38').datepicker({
+	$('[name="datepicker38"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -304,7 +304,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker39').datepicker({
+	$('[name="datepicker39"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -312,7 +312,7 @@ $(function(){
 });
 
 $(function(){
-	$('#datepicker40').datepicker({
+	$('[name="datepicker40"]').datepicker({
 		inline: true,
 		showOtherMonths: true,
 		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']

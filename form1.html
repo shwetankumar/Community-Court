@@ -55,37 +55,38 @@
          <fieldset>
          <legend>Personal Details </legend>
          
-         Current Date: <input type="text" id="datepicker1" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12"> 
+         Current Date: <input type="text" name="datepicker1" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12"> 
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &emsp;Date Referred to Court: <input type="text" id="datepicker2" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         &emsp;Date Referred to Court: <input type="text" name="datepicker2" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &emsp;Citation Number: <input type="text" id="courtID">
+         &emsp;Citation Number: <input type="text" name="courtID">
     	 <br><br> <hr size="1.2" noshade style="color:#000;"> <br>
          
-         &nbsp;&nbsp; First Name: <input type="text" id="fName" style="margin-right:50px;">
-         Middle Initial: <input type="text" id="mInitial" size="3" style="margin-right:50px">
-         Last Name: <input type="text" id="lName">
+         &nbsp;&nbsp; First Name: <input type="text" name="fName" style="margin-right:50px;">
+         Middle Initial: <input type="text" name="mInitial" size="3" style="margin-right:50px">
+         Last Name: <input type="text" name="lName">
          <br><br><br>
          
-         &nbsp;&nbsp; Street Address: <textarea id="sAddress" rows="2" data-role="none" cols="30" 
-         style="margin-right:53px; resize:none; overflow:auto;"> 
+         &nbsp;&nbsp; Street Address: 
+         <textarea name="sAddress" rows="2" data-role="none" cols="30" style="margin-right:53px; resize:none; overflow:auto;"> 
          </textarea>
-         City: <input type="text" id="city" size="15" style="margin-right:40px; margin-top:16px;">
-         State: <select name="state" id="state1" style="margin-right:40px"> <script> populateStates1() </script> </select>
-         Zip Code: <input type="text" id="zip" size="5" maxlength="5">
+         City: <input type="text" name="city" size="15" style="margin-right:40px; margin-top:16px;">
+         State: <select name="state" name="state1" style="margin-right:40px"> <script> populateStates1() </script> </select>
+         Zip Code: <input type="text" name="zip" size="5" maxlength="5">
          <br><br><br>
          
-         &nbsp;&nbsp; Date of Birth: <input type="text" id="datepicker3" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12" 
+         &nbsp;&nbsp; Date of Birth: <input type="text" name="datepicker3" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12" 
          style="margin-right:50px;">
-         &emsp;&emsp; Primary Phone Number: <input type="text" id="pPhone" size="10" maxlength="10" style="margin-right:50px;">
-         Additional Phone Number: <input type="text" id="sPhone" size="10" maxlength="10" style="margin-right:50px;">
+         &emsp;&emsp; Primary Phone Number: <input type="text" name="pPhone" size="10" maxlength="10" style="margin-right:50px;">
+         Additional Phone Number: <input type="text" name="sPhone" size="10" maxlength="10" style="margin-right:50px;">
          <br><br><br>
          
          &nbsp;&nbsp; Gender: &nbsp;&nbsp; <input type="radio" name="gender"> Male &nbsp;&nbsp; <input type="radio" name="gender"> Female
-         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; Ethnicity/Race: <select id="ethnicity" style="margin-right:50px"> 
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; 
+         Ethnicity/Race: <select name="ethnicity" style="margin-right:50px"> 
 		 <script> ethnicity() </script> </select> 
          Highest Level of Education 
-         <select id="education"> 
+         <select name="education"> 
          <option> </option> <option>High Scool</option> <option> Bachelors </option> <option> Masters </option> 
          </select>
          <br><br>
@@ -94,24 +95,24 @@
          
          <fieldset>
          <legend> Emergency Contact</legend>
-         &nbsp;&nbsp; First Name: <input type="text" id="fContactName" size="15" style="margin-right:50px;">
-         First Name: <input type="text" id="lContactName" size="15" style="margin-right:50px;">
-         Contact Number: <input type="text" id="eContactNumber" size="15" maxlength="10" style="margin-right:50px;">
+         &nbsp;&nbsp; First Name: <input type="text" name="fContactName" size="15" style="margin-right:50px;">
+         First Name: <input type="text" name="lContactName" size="15" style="margin-right:50px;">
+         Contact Number: <input type="text" name="eContactNumber" size="15" maxlength="10" style="margin-right:50px;">
          <br><br>
          
-         &nbsp;&nbsp; Street Address: <textarea id="sAddress2" rows="2" data-role="none" cols="30" 
-         style="margin-right:53px; resize:none; overflow:auto;"> 
+         &nbsp;&nbsp; Street Address: 
+         <textarea name="sAddress2" rows="2" data-role="none" cols="30" style="margin-right:53px; resize:none; overflow:auto;"> 
          </textarea>
-         City: <input type="text" id="city2" size="15" style="margin-right:40px; margin-top:16px;">
-         State: <select name="state" id="state2" style="margin-right:40px"> <script> populateStates2() </script> </select>
-         Zip Code: <input type="text" id="zip2" size="5" maxlength="5">
+         City: <input type="text" name="city2" size="15" style="margin-right:40px; margin-top:16px;">
+         State: <select name="state" name="state2" style="margin-right:40px"> <script> populateStates2() </script> </select>
+         Zip Code: <input type="text" name="zip2" size="5" maxlength="5">
          <br><br>
          
          &nbsp;&nbsp; Comments: 
-         <textarea id="comments" rows="2" data-role="none" cols="135" style="resize:none; overflow:auto; margin-left:10px;"></textarea>
+         <textarea name="comments" rows="2" data-role="none" cols="135" style="resize:none; overflow:auto; margin-left:10px;"></textarea>
          
          <br><br><br>
-         <input type="button" value="Submit" name="retrieve" id="submit" style="background:#EFEFEF; margin-left:420px; padding:3px; width:80px">
+         <input type="button" value="Submit" name="retrieve" style="background:#EFEFEF; margin-left:420px; padding:3px; width:80px">
          
          </fieldset>
          </form>

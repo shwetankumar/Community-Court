@@ -61,8 +61,10 @@
          <br>
          
          &nbsp;&nbsp;&nbsp;&nbsp;Name of assigning Judge : 
-         <select name="judge" style="width:80px;margin-right:60px;"> <option> </option> <option> Sloan</option> <option>Gaines</option> </select>
-         Reason for Charge: <input type="text" id="reason" style="margin-right:60px;">
+         <select name="judge" style="width:80px;margin-right:60px;"> 
+         <option> </option> <option> Sloan</option> <option>Gaines</option> 
+         </select>
+         Reason for Charge: <input type="text" name="reason" style="margin-right:60px;">
          <br><br><br>
          
          <hr size="1.2" noshade style="color:#000;"> <br><br>
@@ -106,7 +108,7 @@
          </textarea>
          <br><br><br>
          
-         &emsp; Years of Service : <input type="number" min="0" max="50" style="width:50px; margin-right:50px;">
+         &emsp; Years of Service : <input type="number" min="0" max="50" style="width:50px; margin-right:50px;" name="years">
          Benefits Received : 
          <textarea name="benefits" rows="2" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-15px;">
          </textarea>
@@ -182,7 +184,7 @@
          <br><br>
          
          &emsp;&emsp;&emsp;&emsp;
-         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;">
+         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;" name="chargeyear">
          Charge : <input type="text" name="charge1" style="margin-right:50px;">
          Convicted ? 
          <input type="radio" name="convict1"> Yes
@@ -190,7 +192,7 @@
          <br><br>
          
          &emsp;&emsp;&emsp;&emsp;
-         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;">
+         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;" name="convictyear">
          Charge : <input type="text" name="charge2" style="margin-right:50px;">
          Convicted ? 
          <input type="radio" name="convict2"> Yes
@@ -203,7 +205,7 @@
          <br><br>
          
          &emsp;&emsp;&emsp;&emsp;
-         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;">
+         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;" name="arrest1">
          Charge : <input type="text" name="acharge1" style="margin-right:50px;">
          Convicted ? 
          <input type="radio" name="arrest1"> Yes
@@ -211,7 +213,7 @@
          <br><br>
          
          &emsp;&emsp;&emsp;&emsp;
-         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;">
+         If yes, which year ? <input type="number" min="0" max="50" style="width:50px; margin-right:50px;" name="arrest2">
          Charge : <input type="text" name="acharge2" style="margin-right:50px;">
          Convicted ? 
          <input type="radio" name="arrest2"> Yes
@@ -224,21 +226,21 @@
          &emsp;&emsp; Person 1 : 
          <input type="text" name="person1" style="margin-right:50px; margin-left:15px;">
          Relationship : 
-         <textarea name="benefits" rows="1" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-9px;">
+         <textarea name="benefits1" rows="1" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-9px;">
          </textarea>
          <br><br><br>
          
          &emsp;&emsp; Person 2 : 
-         <input type="text" name="person1" style="margin-right:50px; margin-left:15px;">
+         <input type="text" name="person2" style="margin-right:50px; margin-left:15px;">
          Relationship : 
-         <textarea name="benefits" rows="1" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-9px;">
+         <textarea name="benefits2" rows="1" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-9px;">
          </textarea>
          <br><br><br>
          
          &emsp;&emsp; Person 3 : 
-         <input type="text" name="person1" style="margin-right:50px; margin-left:15px;">
+         <input type="text" name="person3" style="margin-right:50px; margin-left:15px;">
          Relationship : 
-         <textarea name="benefits" rows="1" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-9px;">
+         <textarea name="benefits3" rows="1" cols="60" data-role="none" style="resize:none;overflow:auto;margin-top:-9px;">
          </textarea>
          <br><br><br><br>
          
@@ -246,7 +248,7 @@
          
          <br><br><br><br>
          <center> 
-         <a href="form2.html" style="margin-left:10px;"> Home</a>
+         <a href="form2.html" style="margin-left:10px;"> Case Info Home</a>
          <a href="form3.html" style="margin-left:10px;"> TLC</a>
          <b style="margin-left:10px;"> Restorative Justice</b>
          <a href="form6.html" style="margin-left:10px;"> Community Service</a>

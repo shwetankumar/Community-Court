@@ -61,13 +61,15 @@
          <br>
          
          &nbsp;&nbsp;&nbsp;&nbsp;Name of assigning Judge : 
-         <select name="judge" style="width:80px;margin-right:60px;"> <option> </option> <option> Sloan</option> <option>Gaines</option> </select>
-         Reason for Charge: <input type="text" id="reason" style="margin-right:60px;">
+         <select name="judge" style="width:80px;margin-right:60px;" name="jname"> 
+         <option> </option> <option> Sloan</option> <option>Gaines</option>
+         </select>
+         Reason for Charge: <input type="text" name="reason" style="margin-right:60px;" name="reason">
          <br><br><br>
          
          <hr size="1.2" noshade style="color:#000;"> <br><br>
          
-         &emsp; If speeding, how fast ?    <input type="number" min="0" max="150" style="width:50px"> MPH
+         &emsp; If speeding, how fast ?    <input type="number" min="0" max="150" style="width:50px" name="speed"> MPH
          <br><br><br>
          
          &emsp; License Suspended ? 
@@ -76,7 +78,8 @@
          <br><br><br>
          
          &emsp; Events that led to the current citation : 
-         <textarea id="reason1" rows="2" data-role="none" cols="110" style="resize:none; overflow:auto; margin-left:10px;"></textarea> 
+         <textarea name="reason1" rows="2" data-role="none" cols="110" style="resize:none; overflow:auto; margin-left:10px;">
+         </textarea> 
          <br><br><br>
          
          &emsp; Listening to music at the time of violation? 
@@ -93,18 +96,18 @@
          <input type="radio" name="previous">Yes
          <input type="radio" name="previous">No
          <br><br>
-         &emsp; <textarea id="reason2" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
+         &emsp; <textarea name="reason2" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
          <br><br><br>
          
          &emsp; Any history of probation for traffic or criminal charges ?
          <input type="radio" name="history">Yes
          <input type="radio" name="history">No
          <br><br>
-         &emsp; <textarea id="reason3" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
+         &emsp; <textarea name="reason3" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
          <br><br><br>
          
          &emsp; Frequency of wearing seatbelt as a driver or passenger : 
-         <select name="belt" style="margin-left:10px;"> 
+         <select name="belt" style="margin-left:10px;" name="beltfrequency"> 
          <option></option> <option> Never</option><option>Sometimes</option><option>Often</option><option>Always</option>
          </select>
          <br><br><br>
@@ -127,14 +130,14 @@
          <input type="radio" name="mhi">Yes
          <input type="radio" name="mhi">No
          <br><br>
-         &emsp; <textarea id="mReason" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
+         &emsp; <textarea name="mReason" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
          <br><br><br>
          
          &emsp; Taking any prescribed medication ?
          <input type="radio" name="medication">Yes
          <input type="radio" name="medication">No
          <br><br>
-         &emsp; <textarea id="mDescription" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
+         &emsp; <textarea name="mDescription" rows="2" data-role="none" cols="160" style="resize:none; overflow:auto;"></textarea> 
          <br><br><br>
          
          &emsp; Program Requirements : 
@@ -143,29 +146,29 @@
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
          <input type="checkbox" name="tlcreq"> Alive at 25
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-         Date of Completion : <input type="text" id="datepicker5" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         Date of Completion : <input type="text" name="datepicker5" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          <br><br>
          
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
          <input type="checkbox" name="tlcreq"> Defensive Driving
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
-         Date of Completion : <input type="text" id="datepicker6" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         Date of Completion : <input type="text" name="datepicker6" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          <br><br>
          
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
          <input type="checkbox" name="tlcreq"> Community Service
          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
-         Date of Completion : <input type="text" id="datepicker7" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         Date of Completion : <input type="text" name="datepicker7" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          <br><br><br>
          
          <font style="margin-left:400px">All conditions satisfied : </font>
          <input type="radio" name="satisfied">Yes
          <input type="radio" name="satisfied">No
          &emsp;&emsp;&emsp;&emsp;
-         Date of Completion : <input type="text" id="datepicker8" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
+         Date of Completion : <input type="text" name="datepicker8" placeholder="MM/DD/YYYY" onFocus="this.placeholder = ''" size="12">
          <br><br><br><br><br><br>
          <center> 
-         <a href="form2.html" style="margin-left:10px;"> Home</a>
+         <a href="form2.html" style="margin-left:10px;"> Case Info Home</a>
          <b style="margin-left:10px;">TLC</b> 
          <a href="form4.html" style="margin-left:10px;"> Restorative Justice</a>
          <a href="form6.html" style="margin-left:10px;"> Community Service</a>
