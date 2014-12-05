@@ -78,10 +78,10 @@ fieldset
 }
 
 #signin {
-	position:relative;
+	position:fixed;
 	float:left;
-	margin-top:-60px;
-	margin-left:1200px;
+	margin-top:65px;
+	margin-left:920px;
 	padding:1px;
 	background:#C29C03;
 }
@@ -213,11 +213,12 @@ fieldset
 }
 
 #note h2 {
-	float:left;
-	margin-top:150px;
+	text-align:center;
+	margin-top:170px;
 	word-spacing:2px;
 	text-transform:uppercase;
 	color:#000;
+	margin-bottom:-190px;
 }
 
 #forgot {
